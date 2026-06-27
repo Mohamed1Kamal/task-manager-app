@@ -255,11 +255,16 @@ flutter run
 
 ## 🎬 Demo
 
-> 🎥 A screen recording / GIF demo of the application will be added here.
+See the Task Manager App in action, showcasing the authentication flow, project management, task management, and navigation.
 
-```
-[ Demo GIF / Video Placeholder ]
-```
+<div align="center">
+
+[![Watch Demo Video](https://img.shields.io/badge/▶️%20Watch-Demo%20Video-red?style=for-the-badge)](https://drive.google.com/file/d/1QV0FlOqMhPlQzfPy97qTUsxGm68fkpX5/view?usp=sharing)
+
+</div>
+
+> 📹 **Direct Link:**  
+> https://drive.google.com/file/d/1QV0FlOqMhPlQzfPy97qTUsxGm68fkpX5/view?usp=sharing
 
 ---
 
