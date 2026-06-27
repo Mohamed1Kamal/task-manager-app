@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mohamed",
+      "email": "mohamed@test.com",
+      "password": "m123",
+      "token": "fake-jwt-token-123"
+    },
+    {
+      "id": "2",
+      "name": "Ahmed",
+      "email": "ahmed@test.com",
+      "password": "a123",
+      "token": "fake-jwt-token-456"
+    },
+    {
+      "name": "Mohamed Kamal",
+      "email": "mohamed.kamal.uo@gmail.com",
+      "password": "Moh@1234",
+      "token": "fake-token-1782556628631",
+      "id": "iWaLORk3A8o"
+    },
+    {
+      "name": "Mohamed Kamal",
+      "email": "mohamed.kamal@gmail.com",
+      "password": "Moh@1234",
+      "token": "fake-token-1782557003131",
+      "id": "tm65XEceUXM"
+    },
+    {
+      "name": "Mohamed Kamal",
+      "email": "mohamed.kamal.dev@gmail.com",
+      "password": "Moh@1234",
+      "token": "fake-token-1782557567242",
+      "id": "Sm8vX-5sYl4"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Mobile App",
+      "description": "this is a simple mobile app for managing tasks.",
+      "status": "Done"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "title": "Web App",
+      "description": "this is a web application for managing tasks.",
+      "status": "In Progress"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "title": "API Development",
+      "status": "Pending",
+      "description": "this is an API development project for managing tasks."
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "title": "Testing",
+      "status": "Done",
+      "description": "this is a testing project for managing tasks."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": 1,
+      "title": "Design UI",
+      "status": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "title": "Build API",
+      "status": "In Progress",
+      "priority": "Medium"
+    },
+    {
+      "id": "3",
+      "projectId": 1,
+      "title": "Build API",
+      "status": "In Progress",
+      "priority": "Medium"
+    },
+    {
+      "id": "4",
+      "projectId": 2,
+      "title": "Create Database",
+      "status": "Done",
+      "priority": "Low"
+    },
+    {
+      "id": "5",
+      "projectId": 2,
+      "title": "Implement Authentication",
+      "status": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": "6",
+      "projectId": 3,
+      "title": "Write Unit Tests",
+      "status": "In Progress",
+      "priority": "Medium"
+    },
+    {
+      "id": "7",
+      "projectId": 3,
+      "title": "Deploy to Production",
+      "status": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": "8",
+      "projectId": 4,
+      "title": "Perform Regression Testing",
+      "status": "Done",
+      "priority": "Low"
+    },
+    {
+      "projectId": 1,
+      "title": "Write readme file",
+      "priority": "High",
+      "status": "In Progress",
+      "id": "kM8HVwieGCY"
+    },
+    {
+      "projectId": 1,
+      "title": "Update login view",
+      "priority": "Low",
+      "status": "Done",
+      "id": "IpbQQ3BhbZs"
+    },
+    {
+      "projectId": 1,
+      "title": "Test unit",
+      "priority": "Low",
+      "status": "Pending",
+      "id": "2XJpO4o_RkA"
+    },
+    {
+      "projectId": 1,
+      "title": "Update github",
+      "priority": "High",
+      "status": "Done",
+      "id": "Ii_sbkPbcFU"
+    },
+    {
+      "projectId": 3,
+      "title": "Test Api",
+      "priority": "High",
+      "status": "Done",
+      "id": "0U5fsjSWfVE"
+    },
+    {
+      "projectId": 2,
+      "title": "Code home page",
+      "priority": "High",
+      "status": "Done",
+      "id": "X52g1hmz0A8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
